@@ -323,7 +323,8 @@ section .header {
     visibility: visible;
     opacity: .9;
     -webkit-transition: opacity .5s;
-    transition: opacity .5s
+    transition: opacity .5s;
+    color: green
 }
 
 .nav-toggle {
@@ -442,7 +443,7 @@ section .header {
 }
 
 .navigation {
-    color: #000000;
+    color: #ffffff;
     transition: all 300ms ease-in-out;
     position: fixed;
     width: 100%;
