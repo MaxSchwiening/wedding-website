@@ -63,7 +63,9 @@ h5 {
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
-    border-color: #000000
+    border-color: #000000;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .btn-white:hover,
@@ -91,11 +93,20 @@ h5 {
 }
 
 .btn-small {
-    padding: 8px 30px
+    height: 40px;
+    aspect-ratio: 6/2;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    line-height: 40px;
+    box-sizing: content-box;
 }
 
 .btn-large {
-    padding: 15px 40px
+    padding: 15px 40px;
+    background-color: #d3b56a;
+    color: #fff;
+
 }
 
 .btn-margin-right {
@@ -323,8 +334,7 @@ section .header {
     visibility: visible;
     opacity: .9;
     -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    color: green
+    transition: opacity .5s
 }
 
 .nav-toggle {
@@ -512,7 +522,8 @@ header ul.member-actions li {
 }
 
 header ul.member-actions li a {
-    color: #000000
+    color: #000000;
+    padding-right: 10px
 }
 
 header ul.member-actions li a:hover {
